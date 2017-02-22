@@ -13,4 +13,5 @@ groups = designPatternsGroup.randomizeGroups
 
 puts "\nGrupo 1:\n" + groups[0].to_s
 puts "\nGrupo 2:\n" + groups[1].to_s
-
+puts "\n\nPressione qualquer tecla para sair."
+gets
