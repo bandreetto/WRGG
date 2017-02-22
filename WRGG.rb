@@ -5,7 +5,7 @@ puts 'Edição Design Patterns!'
 puts 'Digite "enter" para gerar uma composição de grupos.'
 gets
 
-designPatternsGroup = Group.new(['Bruno Andreetto', 'Santos Luiz', 'Lelia Loures', 'João Barbosa', 'Michael Nogueira'],
+designPatternsGroup = Group.new(['Bruno Andreetto', 'Luiz Santos', 'Lelia Loures', 'João Barbosa', 'Michael Nogueira'],
                                 ['Raphael Soares', 'Flavio Cestari', 'Carlos Margadona', 'William Pascucci'],
                                 ['Eduardo Miano', 'William Moura'])
 
