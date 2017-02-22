@@ -17,7 +17,7 @@ class Group
             end
         end
         
-        newAges = []
+        newAges = Array.new
         numberOfParticipants = @ageParticipants.size
         while newAges.size < numberOfParticipants / 2
             participant = @ageParticipants[groupRandomizer.rand(0...numberOfParticipants)]
@@ -26,7 +26,7 @@ class Group
             end
         end
         
-        newSeniors = []
+        newSeniors = Array.new
         numberOfParticipants = @seniorParticipants.size
         while newSeniors.size < numberOfParticipants / 2
             participant = @seniorParticipants[groupRandomizer.rand(0...numberOfParticipants)]
